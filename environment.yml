@@ -4,22 +4,21 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - conda-forge::biopython=1.78
-  - conda-forge::markdown=3.1.1
-  - conda-forge::pymdown-extensions=6.0
-  - conda-forge::pygments=2.5.2
-  - bioconda::fastqc=0.11.8
-  - bioconda::multiqc=1.7
-  - bioconda::lofreq=2.1.3.1
-  - bioconda::bowtie=1.2.3
-  - bioconda::bwa=0.7.17
-  - bioconda::spades=3.14.0
-  - conda-forge::pandoc=2.9.2.1
+  - conda-forge::biopython
+  - conda-forge::markdown
+  - conda-forge::pymdown-extensions
+  - conda-forge::pygments
+  - bioconda::fastqc
+  - bioconda::multiqc
+  - bioconda::lofreq
+  - bioconda::bwa
+  - bioconda::spades
+  - conda-forge::pandoc
   - r::r=3.6.0
-  - r::r-tidyverse=1.2.1
-  - r::r-pander=0.6.3
-  - r::r-rmarkdown=1.12
-  - r::r-knitr=1.22
-  - bioconda::t_coffee=11.0.8
+  - r::r-tidyverse
+  - r::r-pander
+  - r::r-rmarkdown
+  - r::r-knitr
+  - bioconda::t_coffee
   - bioconda::snpeff=4.5covid19
-  - bioconda::clustalo=1.2.4
+  - bioconda::clustalo
